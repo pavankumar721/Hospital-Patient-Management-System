@@ -1,0 +1,6 @@
+hospital
+hospital.exe
+*.o
+hospital.db
+hospital.db-shm
+hospital.db-wal
