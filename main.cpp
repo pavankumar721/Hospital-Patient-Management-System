@@ -241,7 +241,7 @@ void addToQueue(sqlite3* db) {
     if (sqlite3_prepare_v2(db, checkSQL, -1, &stmt, nullptr) != SQLITE_OK) {
         cout << "Database error!\n";
         return;
-    }
+    }   
 
     sqlite3_bind_int(stmt, 1, id);
 

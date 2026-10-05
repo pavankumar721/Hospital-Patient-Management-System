@@ -1,0 +1,1 @@
+g++ -I . main.cpp sqlite3.o -o hospital
